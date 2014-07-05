@@ -1,0 +1,16 @@
+{
+  "name": "url-processor",
+  "version": "0.0.0",
+  "description": "Parses h1 title and true URL from specified URL(s)",
+  "main": "url-processor.js",
+  "dependencies": {
+    "phantom": "^0.6.4",
+    "yargs": "^1.2.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
