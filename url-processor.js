@@ -101,7 +101,7 @@ var getDataFromUrl = function(url, cb) {
 					/**
 					 * Parse the data into a specialised object
 					 */
-					var data = parseData(data);	
+					data = parseData(data);	
 					
 					/**
 					 * Invoke the callback, passing the parsed data
@@ -145,6 +145,6 @@ module.exports = {
 		 */
 		urls.forEach(function(url) {
 			getDataFromUrl(url, cb);
-		})
+		});
 	},
 };
